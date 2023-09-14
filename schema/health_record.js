@@ -4,7 +4,7 @@ const validator = require("validator");
 const healthRecordSchema = mongoose.model({
     date: {
         type: String,
-        required: true
+        required: false
     },
 
     age: {
